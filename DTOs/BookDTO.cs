@@ -1,6 +1,10 @@
-namespace book_blog_api.Models;
+using book_blog_api.Models;
+using Humanizer;
+using Microsoft.EntityFrameworkCore;
 
-public class Book
+namespace book_blog_api.DTOs;
+
+public class BookDTO
 {
     public int id { get; set; }
     public string title { get; set; } = string.Empty;
@@ -13,5 +17,5 @@ public class Book
     public string review { get; set; } = string.Empty;
     public int rating { get; set; }
     public DateTime readDate { get; set; }
-    public ICollection<Tag> tags { get; set; } = new List<Tag>();
+    public List<string> tags { get; set; } = new List<string>();
 }

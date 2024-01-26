@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "book-blog-api", "book-blog-api.csproj", "{886F1BD8-0B30-4A9D-98A6-829CC4B681FF}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "book-blog-api", "book-blog-api.csproj", "{20B17E12-E04A-4FC8-9581-9EF842ACD4F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{886F1BD8-0B30-4A9D-98A6-829CC4B681FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{886F1BD8-0B30-4A9D-98A6-829CC4B681FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{886F1BD8-0B30-4A9D-98A6-829CC4B681FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{886F1BD8-0B30-4A9D-98A6-829CC4B681FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20B17E12-E04A-4FC8-9581-9EF842ACD4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B17E12-E04A-4FC8-9581-9EF842ACD4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B17E12-E04A-4FC8-9581-9EF842ACD4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B17E12-E04A-4FC8-9581-9EF842ACD4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A48BB33-1035-4801-9494-69CA1AD1487E}
 	EndGlobalSection
 EndGlobal

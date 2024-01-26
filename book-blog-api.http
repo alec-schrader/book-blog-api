@@ -1,4 +1,4 @@
-@book_blog_api_HostAddress = http://localhost:5111
+@book_blog_api_HostAddress = http://localhost:5028
 
 GET {{book_blog_api_HostAddress}}/weatherforecast/
 Accept: application/json
